@@ -1,4 +1,5 @@
 # load Systematic Investor Toolbox
+# load the dataset 
 setInternet2(TRUE)
 con = gzcon(url('http://www.systematicportfolio.com/sit.gz', 'rb'))
 source(con)
